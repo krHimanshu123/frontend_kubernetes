@@ -24,6 +24,7 @@ const Home = () => {
             <h4>Product 4</h4>
             <p>$10.00</p>
             </div>
+      
     </div>
   )
 }

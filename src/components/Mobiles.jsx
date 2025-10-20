@@ -34,6 +34,7 @@ const Mobiles = () => {
               <img
                 src={`${BASE_URL}/api/products/images/${product.imagePath}`}
                 alt={product.name}
+                
               />
               <h4>{product.name}</h4>
               <p>${product.price.toFixed(2)}</p>

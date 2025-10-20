@@ -22,6 +22,7 @@ const PaymentHistory = () => {
                   </li>
                 ))}
               </ul>
+              
               <hr />
             </li>
           ))}

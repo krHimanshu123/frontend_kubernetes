@@ -24,6 +24,7 @@ const Checkout = () => {
       <input type="text" placeholder="CVV" value={cvv} onChange={(e) => setCvv(e.target.value)} />
       <button onClick={handlePayment}>Pay Now</button>
     </div>
+    
   );
 };
 

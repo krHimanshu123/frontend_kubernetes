@@ -26,6 +26,7 @@ const AboutUs = () => {
           <h3>Mobiles</h3>
           <p>Latest smartphones from top brands at unbeatable prices.</p>
         </div>
+          
         </Link>
         <Link to="/laptops">
         <div className="about-item">

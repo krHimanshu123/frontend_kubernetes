@@ -28,6 +28,7 @@ const Payment = () => {
               <h4>{item.name}</h4>
               <p>${item.price}</p>
             </div>
+          
           ))}
           <button onClick={handlePayment}>Pay Now</button>
         </>

@@ -23,6 +23,7 @@ const HomePage = () => {
     setIsAuthenticated(false);
     setDropdownOpen(false);
     navigate("/login");
+    
   };
 
   const toggleDropdown = () => {

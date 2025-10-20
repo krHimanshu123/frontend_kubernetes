@@ -39,6 +39,7 @@ const Laptops = () => {
               <p>${product.price.toFixed(2)}</p>
               <button onClick={() => handleAddToCart(product)}>Add to Cart</button>
             </div>
+            
           ))
         ) : (
           <p>No laptops available.</p>

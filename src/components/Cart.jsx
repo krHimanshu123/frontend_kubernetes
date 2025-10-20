@@ -26,6 +26,7 @@ const Cart = () => {
                 src={`${BASE_URL}/api/products/images/${item.imagePath}`}
                 alt={item.name}
               />
+              
               <h4>{item.name}</h4>
               <p>${item.price}</p>
               <button onClick={() => removeFromCart(item.id)}>Remove</button>

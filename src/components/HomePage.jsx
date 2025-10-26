@@ -12,6 +12,7 @@ const HomePage = () => {
   useEffect(() => {
     const handleStorageChange = () => {
       setIsAuthenticated(!!localStorage.getItem("token"));
+      
     };
 
     window.addEventListener("storage", handleStorageChange);

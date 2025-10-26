@@ -15,6 +15,7 @@ const Computers = () => {
     const fetchProducts = async () => {
       const data = await getProducts("computers"); // Fetch only computer category
       setProducts(data);
+      
     };
     fetchProducts();
   }, []);

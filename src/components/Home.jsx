@@ -23,8 +23,7 @@ const Home = () => {
             <img src="rose.jpg" alt="Product 1" />
             <h4>Product 4</h4>
             <p>$10.00</p>
-            </div>
-      
+            </div>      
     </div>
   )
 }

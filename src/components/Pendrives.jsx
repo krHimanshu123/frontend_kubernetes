@@ -12,6 +12,7 @@ const Pendrives = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
+    
     const fetchProducts = async () => {
       const data = await getProducts("pendrives"); // Fetch only pendrive category
       setProducts(data);

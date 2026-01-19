@@ -14,6 +14,7 @@ const ProductPage = ({ category }) => {
         const data = await getProducts(category || "");
         setProducts(data);
       } catch (error) {
+        
         console.error("Error fetching products:", error);
       }
     };
